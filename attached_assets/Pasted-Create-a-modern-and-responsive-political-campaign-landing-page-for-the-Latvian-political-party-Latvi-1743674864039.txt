@@ -1,0 +1,131 @@
+Create a modern and responsive political campaign landing page for the Latvian political party Latvijas Attīstībai, designed for the Olaines novads municipality elections. The website should follow a clean, clear structure, with strong visual hierarchy and mobile/desktop responsiveness. It should be built using HTML, CSS (Tailwind preferred), and optionally JavaScript if needed.
+🎯 GOAL:
+The purpose is to present the local team, political program, and manifesto in a visually appealing and easy-to-read layout, styled with the Latvijas Attīstībai brand design — blue and white color blocks, clear sans-serif fonts, and minimalist layout with clear sections.
+
+WEBSITE STRUCTURE (Landing Page):
+The page has navigation but it leadz to the sections mentioned here
+Hero Section (Top of Page):
+
+
+Full-width hero image:
+ https://drive.google.com/file/d/1EitEhdUCV7m5G5lnN0ur6odJPKOOeNRr/view?usp=sharing
+
+
+Overlay or adjacent: Latvijas Attīstībai logo (if possible, fetch from shared drive).
+
+
+Slogan text: KOMANDA TAVA OLAINES NOVADA NĀKOTNE
+
+
+Navigation links clearly visible:
+ KANDIDĀTI - PROGRAMMA - MANIFESTS - SOCIĀLIE TĪKLI
+
+
+Section 1: KOMANDA (default visible on page load)
+
+
+Display each candidate in a stacked layout with:
+
+
+Image on left, text on right for the first candidate.
+
+
+Next candidate: image on right, text on left, and so on (zigzag layout).
+
+
+Candidate information needs to be a user configurable to specify many different participants
+Data has this kind of information 
+Political Party they are in 
+Where does the party operate
+Member photo
+Member name
+Their work title
+About them
+Each member card is structured like so 
+Card has left and right parts they alternate what is left what is right
+Left part 
+Top has a block with Party name and operation region block is colored in accent color and text is thite in it
+Underneath this we have participants image 
+Under that we have another block with participants name and work title block is in accent color with white text
+Right side is their description
+Cards upper right corner has a united logo
+Cards bottom right corner has has text Nr. {participants order number}
+
+
+Section 2: PROGRAMMA
+
+
+Content is rich text type so i can define it
+
+
+Each subsection of the program should be styled in its own color block (blue/white alternation).
+
+
+Optionally include small thematic icons next to each subsection:
+
+
+Security → Police badge icon
+
+
+Education → Book icon
+
+
+Environment → Tree icon
+
+
+Business → Graph icon
+
+
+Section 3: MANIFESTS
+
+
+Include the following manifesto text as a stylized content block with centered text and bold headings.
+
+
+Use large font, spacing, and blue/white theme blocks for emphasis and legibility.
+
+
+Highlight key phrases in bold or with icons/visual emphasis.
+
+
+(Optional) Section 4: SOCIĀLIE TĪKLI
+
+
+Embed recent posts or activity from Facebook:
+
+
+Page: https://www.facebook.com/aleksandrsg
+
+
+Display in a scrollable horizontal feed or a clean, responsive grid.
+
+
+Feed is managed by ElfSight with its embed module
+
+
+
+DESIGN SPECIFICATIONS:
+Colors: Blue & White (from Latvijas Attīstībai party branding).
+
+
+Background #f2f2f2
+Hadings #013196
+Accents #013196
+
+
+
+Fonts: Clean, modern sans-serif (Open Sans, Inter, or similar).
+
+
+Layout: Use Tailwind CSS (if possible) for rapid styling.
+
+
+Responsiveness: Mobile-first layout with full desktop adaptation.
+
+
+
+EXTRAS:
+Use placeholder content where needed, but leave space/hooks for replacing it with real assets.
+
+
+Ensure good performance and accessibility (alt tags, semantic structure).
